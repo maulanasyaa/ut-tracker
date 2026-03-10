@@ -152,5 +152,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by Maulana Sya yang berjuang lulus tepat waktu.</sub>
+  <sub>Built with ❤️ by Maulana Syarip Abdurahman</sub>
 </div>
