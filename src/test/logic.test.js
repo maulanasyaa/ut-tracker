@@ -8,8 +8,8 @@ import { mkdtempSync, rmSync, writeFileSync, readdirSync } from 'fs'
 import { tmpdir } from 'os'
 import { join } from 'path'
 
-// We require CJS logic module
-const logic = require('../main/logic.js')
+// We import ESM logic module
+import logic from '../main/logic.js'
 
 // ─── TEST SETUP ───────────────────────────────────────────────────────────────
 
