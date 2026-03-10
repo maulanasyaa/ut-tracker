@@ -32,11 +32,20 @@
 
 | Platform | Download |
 |---|---|
-| macOS (Apple Silicon) | [UT-Tracker-1.0.0-arm64.dmg](#) |
-| macOS (Intel) | [UT-Tracker-1.0.0.dmg](#) |
-| Windows | [UT-Tracker.Setup.1.0.0.exe](#) |
+| macOS (Apple Silicon) | [UT-Tracker-1.0.0-arm64.dmg](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
+| macOS (Intel) | [UT-Tracker-1.0.0.dmg](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
+| Windows | [UT-Tracker.Setup.1.0.0.exe](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
 
-> **Note:** UT-Tracker belum ditandatangani secara digital (*code-signed*). Anda mungkin perlu melewati peringatan keamanan sistem operasi pada peluncuran pertama.
+> **Note:** UT-Tracker is not code-signed. You may need to bypass OS security warnings on first launch.
+
+### macOS
+Run the following command in Terminal after installing:
+```bash
+xattr -cr /Applications/Anchor.app
+```
+
+### Windows
+Click **"More info"** → **"Run anyway"** when the SmartScreen prompt appears.
 
 ---
 
