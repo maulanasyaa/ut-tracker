@@ -3,8 +3,8 @@
  * No electron deps — fully unit-testable
  */
 
-const path = require('path')
-const fs   = require('fs')
+import path from 'path'
+import fs from 'fs'
 
 // ─── DATA STORE ───────────────────────────────────────────────────────────────
 
@@ -319,7 +319,7 @@ function validateImportFile(parsed) {
   return Array.isArray(parsed.semesters) && Array.isArray(parsed.mata_kuliah)
 }
 
-module.exports = {
+export default {
   // store
   setDataPath, resetCache, readData, writeData, nextId, emptyData,
   // semester

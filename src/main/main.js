@@ -1,7 +1,11 @@
-const { app, BrowserWindow, ipcMain, Notification, dialog, shell, globalShortcut } = require('electron')
-const path = require('path')
-const fs = require('fs')
-const logic = require('./logic.js')
+import { app, BrowserWindow, ipcMain, Notification, dialog, shell, globalShortcut } from 'electron'
+import path from 'path'
+import fs from 'fs'
+import logic from './logic.js'
+import { fileURLToPath } from 'url'
+
+// Handle __dirname in ESM if needed, though electron-vite usually shims it.
+// If not using type: module, Vite will transpile this back anyway.
 
 // ==================== JSON STORE ====================
 

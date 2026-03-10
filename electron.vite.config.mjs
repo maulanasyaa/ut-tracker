@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   main: {
-    entry: 'src/main/index.js',
+    entry: 'src/main/main.js',
     plugins: [externalizeDepsPlugin()]
   },
   preload: {
-    entry: 'src/preload/index.js',
+    entry: 'src/preload/preload.js',
     plugins: [externalizeDepsPlugin()]
   },
   renderer: {
