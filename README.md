@@ -41,7 +41,7 @@
 ### macOS
 Run the following command in Terminal after installing:
 ```bash
-xattr -cr /Applications/Anchor.app
+xattr -cr /Applications/UT-Tracker.app
 ```
 
 ### Windows
