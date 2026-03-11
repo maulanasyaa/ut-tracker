@@ -1,11 +1,17 @@
 const APP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.0.0'
 const AUTHOR_NAME = 'Maulana Syarip Abdurahman'
-const AUTHOR_URL  = 'https://github.com/maulanasyaa'
+const AUTHOR_URL   = 'https://github.com/maulanasyaa'
+const SAWERIA_URL  = 'https://saweria.co/maulanasa'
 
 export default function AboutModal({ onClose }) {
   const handleLink = (e) => {
     e.preventDefault()
     window.open(AUTHOR_URL, '_blank')
+  }
+
+  const handleSaweria = (e) => {
+    e.preventDefault()
+    window.open(SAWERIA_URL, '_blank')
   }
 
   return (
@@ -47,7 +53,14 @@ export default function AboutModal({ onClose }) {
         </div>
 
         {/* Footer */}
-        <div className="px-6 pb-5">
+        <div className="px-6 pb-5 flex flex-col gap-2">
+          <button
+            onClick={handleSaweria}
+            className="w-full py-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-sm text-white font-semibold transition-colors flex items-center justify-center gap-2"
+          >
+            <span>☕</span>
+            <span>Traktir Kopi di Saweria</span>
+          </button>
           <button
             onClick={onClose}
             className="w-full py-2 rounded-xl bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-sm text-gray-600 dark:text-gray-400 font-medium transition-colors"

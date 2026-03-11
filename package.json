@@ -1,6 +1,6 @@
 {
   "name": "ut-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Offline tracker untuk mahasiswa Universitas Terbuka",
   "main": "out/main/main.js",
   "scripts": {
@@ -67,7 +67,7 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "YOUR_USERNAME",
+      "owner": "maulanasyaa",
       "repo": "ut-tracker"
     },
     "linux": {
