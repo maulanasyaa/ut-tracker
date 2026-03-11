@@ -27,14 +27,16 @@
 **UT-Tracker** adalah aplikasi desktop ringan dan privat yang dirancang khusus untuk mahasiswa Universitas Terbuka. Aplikasi ini membantu Anda mengelola semester, mata kuliah, dan kewajiban mingguan (Tugas, Diskusi, Presensi) dalam satu antarmuka yang intuitif dan sepenuhnya luring (*offline*).
 
 ---
+![Downloads](https://img.shields.io/github/downloads/maulanasyaa/ut-tracker/total?style=flat&label=Downloads)
+---
 
 ## ⬇️ Download
 
 | Platform | Download |
 |---|---|
-| macOS (Apple Silicon) | [UT-Tracker-1.0.0-arm64.dmg](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
-| macOS (Intel) | [UT-Tracker-1.0.0.dmg](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
-| Windows | [UT-Tracker.Setup.1.0.0.exe](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
+| macOS (Apple Silicon) | [UT-Tracker-1.0.1-arm64.dmg](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
+| macOS (Intel) | [UT-Tracker-1.0.1.dmg](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
+| Windows | [UT-Tracker.Setup.1.0.1.exe](https://github.com/maulanasyaa/ut-tracker/releases/latest) |
 
 > **Note:** UT-Tracker is not code-signed. You may need to bypass OS security warnings on first launch.
 
